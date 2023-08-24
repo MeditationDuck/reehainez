@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-border {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.custom-border-pushed {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+@font-face {
+  font-family: 'Windows95';
+  src: local('Windows95'),
+       url('./fonts/w95fa.woff2') format('woff2'),
+       url('./fonts/w95fa.woff') format('woff'),
+       url('./fonts/w95fa.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKDotKodenmachou12';
+  src: local('HKDotKodenmachou12'),
+       url('./fonts/KH-Dot-Kodenmachou-12.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html {
+  font-family: "Windows95", "HKDotKodenmachou12", sans-serif;
+  font-size: 18px;
+}
