@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reehainez/static/css/main.e0db71a8.css",
+    "main.js": "/reehainez/static/js/main.fdc9417c.js",
+    "static/js/845.4643fcf2.chunk.js": "/reehainez/static/js/845.4643fcf2.chunk.js",
+    "static/js/787.8be716d4.chunk.js": "/reehainez/static/js/787.8be716d4.chunk.js",
+    "static/media/KH-Dot-Kodenmachou-12.ttf": "/reehainez/static/media/KH-Dot-Kodenmachou-12.22dc5c96758b969274b4.ttf",
+    "static/media/w95fa.otf": "/reehainez/static/media/w95fa.ad7cea682bb510ac5f4a.otf",
+    "static/media/w95fa.woff": "/reehainez/static/media/w95fa.a79f08367baf01d93aca.woff",
+    "static/media/w95fa.woff2": "/reehainez/static/media/w95fa.fb426abf85e01e2c7d00.woff2",
+    "index.html": "/reehainez/index.html",
+    "main.e0db71a8.css.map": "/reehainez/static/css/main.e0db71a8.css.map",
+    "main.fdc9417c.js.map": "/reehainez/static/js/main.fdc9417c.js.map",
+    "845.4643fcf2.chunk.js.map": "/reehainez/static/js/845.4643fcf2.chunk.js.map",
+    "787.8be716d4.chunk.js.map": "/reehainez/static/js/787.8be716d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0db71a8.css",
+    "static/js/main.fdc9417c.js"
+  ]
+}
