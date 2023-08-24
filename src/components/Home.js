@@ -3,15 +3,9 @@ import React, { useState } from 'react';
 import Draggable from 'react-draggable';
 import { useNavigate } from 'react-router-dom';
 import  Player from './Player';
+import { Home_Pages } from '../constants';
 
-function Play() {
-  const elements = [
-    { name: 'Profile', icon: 'folder.ico', link: "about"},
-    { name: 'Player', icon: 'music.ico', link: null },
-    { name: 'Schedules', icon: 'globe.ico', link: "schedules" },
-    { name: 'Shop', icon: 'folder-open.ico', link: "http://amazon.com"},
-    { name: 'Musics', icon: 'my_computer.ico', link: "musics" }
-  ];
+function Home() {
 
   const [showWindow, setShowWindow] = useState(false);
   const [position, setPosition] = useState({x: 40, y: 40});
@@ -46,7 +40,7 @@ function Play() {
 
   return (
     <div className=''>
-      {elements.map((element, index) => {
+      {Home_Pages.map((element, index) => {
         return(
         <Draggable
           defaultPosition={{x: 40, y: 40}}
@@ -119,4 +113,4 @@ function Play() {
   );
 }
 
-export default Play;
+export default Home;

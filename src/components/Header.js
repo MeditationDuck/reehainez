@@ -7,7 +7,7 @@ const Header = (props) => {
           <div className=' text-white cursor-pointer '>{props.title}</div>
             <div 
             className='bg-element px-1 my-1  custom-border cursor-pointer'
-            // onClick={() => setShowWindow(false)}
+            // onClick={props.onClick}
             >
               <div
               className='-my-1 pb-0.5'

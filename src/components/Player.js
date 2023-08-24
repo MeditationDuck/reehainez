@@ -79,8 +79,6 @@ const Player = forwardRef((props, ref) => {
   return (
     <>  
       Player
-
-
       <canvas ref={canvasRef} width="300" height="400"></canvas>
 
       <div className="bg-gray-300 h-2 rounded-lg mt-4">

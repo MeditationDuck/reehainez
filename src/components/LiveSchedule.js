@@ -1,68 +1,10 @@
-const live_data = [
-  {
-    name: "Tokyo Dorm Live",
-    description: "Tokyo Dorm Live is a live st  ",
-    date: "2021-08-01",
-    time_from: "20:00",
-    time_to: "21:00",
-    link: "https://www.youtube.com/watch?v=1Q8fG0TtVAY",
-  },
-  {
-    name: "Fukuoka Night Club",
-    description: "We do DJ at Fukuoka Night Club also",
-    date: "2021-08-01",
-    time_from: "20:00",
-    time_to: "21:00",
-    link: "https://www.youtube.com/watch?v=1Q8fG0TtVAY",
-  },
-  {
-    name: "Fukuoka Night Club",
-    description: "We do DJ at Fukuoka Night Club also",
-    date: "2021-08-01",
-    time_from: "20:00",
-    time_to: "21:00",
-    link: "https://www.youtube.com/watch?v=1Q8fG0TtVAY",
-  },
-  {
-    name: "Fukuoka Night Club",
-    description: "We do DJ at Fukuoka Night Club also",
-    date: "2021-08-01",
-    time_from: "20:00",
-    time_to: "21:00",
-    link: "https://www.youtube.com/watch?v=1Q8fG0TtVAY",
-  },
-  {
-    name: "Fukuoka Night Club",
-    description: "We do DJ at Fukuoka Night Club also",
-    date: "2021-08-01",
-    time_from: "20:00",
-    time_to: "21:00",
-    link: "https://www.youtube.com/watch?v=1Q8fG0TtVAY",
-  },
-  {
-    name: "Fukuoka Night Club",
-    description: "We do DJ at Fukuoka Night Club also",
-    date: "2021-08-01",
-    time_from: "20:00",
-    time_to: "21:00",
-    link: "https://www.youtube.com/watch?v=1Q8fG0TtVAY",
-  },
-  {
-    name: "Fukuoka Night Club",
-    description: "We do DJ at Fukuoka Night Club alsoaaaaaaa",
-    date: "2021-08-01",
-    time_from: "20:00",
-    time_to: "21:00",
-    link: "https://www.youtube.com/watch?v=1Q8fG0TtVAY",
-  },
-  
-]
+import { Live_Data } from '../constants';
 
 const LiveSchedule = () => {
   return (
     <div className="text-white w-screen min-h-screen flex flex-col justify-center items-center p-10 space-y-8">
       <p className="text-2xl uppercase tracking-wide">Live Schedule</p>
-      {live_data.map((event, index) => (
+      {Live_Data.map((event, index) => (
         <div key={index} className="w-full max-w-2xl border-t-4 border-white last:border-b py-6 space-y-4">
           
           <div className="grid grid-cols-2 gap-4">

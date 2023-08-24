@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { UnderBarContents } from '../constants';
 
-
-// icons from https://icon-icons.com/icon/whatsapp-pixel-logo/181923 cc license
 
 function Navbar() {
   const [time, setTime] = useState(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
@@ -10,15 +9,6 @@ function Navbar() {
     search: false, 
     instagram: false,
   });
-
-  const bar_contents = [
-    {name: 'Start', icon: 'windows.ico', link: null},
-    // {name: 'Search', icon: null},
-    {name: 'Instagram', icon: 'instagram.ico', link: 'https://www.instagram.com/meditationduck/'},
-    {name: 'Youtube', icon: 'youtube.ico', link: 'https://www.youtube.com/channel/UCZ3e0b37MykMtMUQQ-7Y4dA'},
-    {name: 'Twitter', icon: 'twitter.ico', link: 'https://twitter.com/meditationduck'},
-    {name: 'Facebook', icon: 'facebook.ico', link: 'https://www.facebook.com/naoki.yoshida.796774/'},
-  ];
   
   useEffect(() => {
     const interval = setInterval(() => {
@@ -29,7 +19,7 @@ function Navbar() {
  
   return(
     <div className='bg-element w-full flex justify-between items-center fixed bottom-0 py-1 px-2 z-1 text-black'>
-      {bar_contents.map((content, index) => {
+      {UnderBarContents.map((content, index) => {
         console.log(process.env.PUBLIC_URL + content.icon)
         return(
         <div key={index}
